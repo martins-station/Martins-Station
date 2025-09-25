@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Farm & Creations — Martins Station</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="farm.html">Farm & Creations</a>
+      <a href="art.html">Art Works</a>
+      <a href="bodywork.html">Bodywork</a>
+      <a href="food.html">Food</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="pagehead">
+    <div class="bg" style="background-image:url('assets/images/flower-buckets.jpg')"></div>
+    <div class="inner">
+      <h1>Farm & Creations</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="lead">
+  Farm to table is more than a trend here — it’s a rhythm. Healthy soil becomes healthy food; healthy food feeds imagination. 
+  We work slowly and simply: compost and cover-crops, hand tools, saved seed and heirloom varieties, beds that rest, and flowers for pollinators.
+  We grow with care, waste little, and make with what the season offers — baskets of greens in spring, tomatoes and herbs in summer, winter squashes and roots when the light grows thin. 
+  Packaging is minimal, scraps return to the soil, and every harvest is a thank-you to this little valley.
+</p>
+
+  </section>
+
+  <section class="section">
+    <div class="masonry">
+      <figure class="tile"><img src="assets/images/lettuce-rows.jpg" alt="Rows of lettuce."></figure>
+      <figure class="tile"><img src="assets/images/redOnion.jpg" alt="Purple onion cross-section."></figure>
+      <figure class="tile"><img src="assets/images/bouquetGords.jpg" alt="Bouquet and gourds."></figure>
+      <figure class="tile"><img src="assets/images/flower-buckets.jpg" alt="Market flowers."></figure>
+    </div>
+  </section>
+
+  <footer>© <span id="year"></span> Martins Station</footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
