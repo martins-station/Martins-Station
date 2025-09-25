@@ -1,16 +1,19 @@
-## Hi there 👋
+# Martins Station 🌾
 
-<!--
-**martins-station/Martins-Station** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Martins Station** is more than a farm — it is a living legacy.  
+Rooted in family, art, and the land, it is a place where food is grown, goods are crafted, and healing is shared.  
 
-Here are some ideas to get you started:
+This website is built to reflect that spirit:  
+- Celebrating the farmstead and its creations 🍯  
+- Showcasing art, food, and handmade goods 🎨  
+- Honoring the deep meaning of the name and its family history 💛  
+- Offering bodywork and healing services to the community 🌿  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Vision
+To create an online home for Martins Station that is timeless, beautiful, and easy to carry forward into the future — a gift not only for today, but for her daughter and generations to come.  
+
+## Technology
+- Static site hosted on **GitHub Pages**  
+- Custom domain: **martins-station.com**  
+- Designed with simplicity, warmth, and sustainability in mind  
+
