@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Food & Kitchen — Martins Station</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="farm.html">Farm & Creations</a>
+      <a href="art.html">Art Works</a>
+      <a href="bodywork.html">Bodywork</a>
+      <a class="active" href="food.html">Food</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="pagehead">
+    <div class="bg" style="background-image:url('assets/images/lettuce-rows.jpg')"></div>
+    <div class="inner">
+      <p class="kicker">Seasonal • Simple</p>
+      <h1><span class="u-brush">Food & Kitchen</span></h1>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <p class="lead">
+  We cook like we grow — simple, seasonal, generous. Farm-to-table isn’t just delicious; it’s kinder to land and body:
+  more nutrients, less travel, more joy. Meals follow the garden — herbs and eggs in spring, tomatoes and peppers in high summer,
+  hearty brassicas when the air turns crisp. When the harvest is heavy, we put it up for winter: pickles, krauts, jams,
+  marmalades, and bright ferments that bring July back to January. Occasionally we share boxes or pop-up suppers — watch this space.
+</p>
+
+
+    <div class="masonry">
+      <figure class="tile">
+        <img src="assets/images/food-orange-marmalade.jpg" alt="Citrus marmalade with sliced oranges.">
+        <figcaption class="cap">Citrus marmalade</figcaption>
+      </figure>
+
+      <figure class="tile">
+        <img src="assets/images/food-pickles-brine.jpg" alt="Hot brine poured over herbs and cucumbers.">
+        <figcaption class="cap">Garden pickles</figcaption>
+      </figure>
+
+      <figure class="tile">
+        <img src="assets/images/eats1.jpg" alt="Hearty seasonal plate.">
+        <figcaption class="cap">Supper from the field</figcaption>
+      </figure>
+
+      <figure class="tile">
+        <img src="assets/images/food-fermented-cabbage-jar.jpg" alt="Homemade kraut in a jar.">
+        <figcaption class="cap">Kraut & culture</figcaption>
+      </figure>
+
+      <figure class="tile">
+        <img src="assets/images/food-harvest-gourds.jpg" alt="Basket of gourds and squash.">
+        <figcaption class="cap">Harvest basket</figcaption>
+      </figure>
+
+      <figure class="tile">
+        <img src="assets/images/eats2.jpg" alt="Fresh herbs and ingredients on plates.">
+        <figcaption class="cap">Prep & pantry</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <footer>© <span id="year"></span> Martins Station</footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
